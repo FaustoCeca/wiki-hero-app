@@ -15,7 +15,7 @@ export const HeroScreen = () => {
 
   const navigate = useNavigate();
   const handleReturn = () => {
-    navigate(-1, {replace: true});    //El -1 en el navigate significa que vaya a la pagina anterior, simple
+    navigate(-1, {replace: true});   
   }
 
   if(!hero) {
